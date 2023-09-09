@@ -8,10 +8,10 @@ int main(void)
 {
 	char c;
 
-	c = 'd';
+	c = 'a';
 	while
-		(c <= 'g') {
-			if ((c != 'q' && c != 'e') && c <= 'g')
+		(c <= 'z') {
+			if ((c != 'q' && c != 'e') && c <= 'z')
 				putchar(c);
 			c++;
 		}
